@@ -1,5 +1,5 @@
 # BBCNewsApp
-
+an app to show top headlines for a specific source (BBC News)
 
 <div align="center">
  <img src="https://user-images.githubusercontent.com/7644709/236697756-eb68fc7a-6394-4ca7-a2bc-5f2c9c57efc9.jpg" width="300px" /> 
