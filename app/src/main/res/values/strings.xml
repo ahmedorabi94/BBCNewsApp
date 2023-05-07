@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BBCNewsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bbc_news">BBC News</string>
+    <string name="description">Description</string>
+    <string name="published_at">Published At</string>
+    <string name="content">Content</string>
+    <string name="author">Author</string>
+</resources>
