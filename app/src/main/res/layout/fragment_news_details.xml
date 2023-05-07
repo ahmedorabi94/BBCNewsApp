@@ -56,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/description"
-                android:fontFamily="@font/roboto_bold"
+                android:fontFamily="@font/roboto_black"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -65,9 +65,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:fontFamily="@font/roboto_black"
+                android:fontFamily="@font/roboto_light"
+                android:textStyle="bold"
                 android:text="These are the stocks posting the largest moves in midday trading."
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
 
 
@@ -84,7 +85,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
+                android:fontFamily="@font/roboto_black"
                 android:text="@string/published_at"
                 android:textSize="15sp" />
 
@@ -93,8 +94,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:fontFamily="@font/roboto_black"
-                android:textSize="18sp"
+                android:fontFamily="@font/roboto_light"
+                android:textStyle="bold"
+                android:textSize="16sp"
                 android:text="2023-05-04T16:17:07Z"
                  />
         </LinearLayout>
@@ -113,7 +115,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
+                android:fontFamily="@font/roboto_black"
                 android:text="@string/content"
                 android:textSize="15sp" />
 
@@ -122,9 +124,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:fontFamily="@font/roboto_black"
+                android:fontFamily="@font/roboto_light"
+                android:textStyle="bold"
                 android:text="heck out the companies making headlines in midday trading Thursday."
-                android:textSize="18sp"
+                android:textSize="16sp"
                 />
         </LinearLayout>
 
@@ -143,7 +146,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_bold"
+                android:fontFamily="@font/roboto_black"
                 android:text="@string/author"
                 android:textSize="15sp" />
 
@@ -152,8 +155,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:fontFamily="@font/roboto_black"
-                android:textSize="18sp"
+                android:fontFamily="@font/roboto_light"
+                android:textStyle="bold"
+                android:textSize="16sp"
                 android:text="Alex Harring"
                />
 
