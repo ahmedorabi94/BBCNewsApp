@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.example.bbcnewsapp.BuildConfig
 import com.example.bbcnewsapp.R
 import com.example.bbcnewsapp.core.data.Resource
 import com.example.bbcnewsapp.databinding.FragmentNewsListBinding
@@ -15,6 +16,7 @@ import com.example.bbcnewsapp.features.new_list.viewmodel.GetNewsListViewModel
 import com.example.bbcnewsapp.features.news_details.ARTICLE_ARG_PARAM1
 import com.example.bbcnewsapp.features.util.EspressoIdlingResource
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.Locale
 
 
 @AndroidEntryPoint
@@ -45,7 +47,7 @@ class NewsListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        activity?.title = "Top headlines"
+        activity?.title = BuildConfig.FLAVOR.uppercase(Locale.ROOT) + " News Headlines"
         EspressoIdlingResource.increment()
         observeViewModel()
     }
