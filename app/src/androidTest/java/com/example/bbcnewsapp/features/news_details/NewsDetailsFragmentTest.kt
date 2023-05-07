@@ -41,7 +41,7 @@ class NewsDetailsFragmentTest {
 
         scenario.moveToState(Lifecycle.State.RESUMED)
 
-        onView(isRoot()).perform(waitFor(5000))
+        onView(isRoot()).perform(waitFor(2000))
 
 
         onView(withId(R.id.titleTV)).check(matches(isDisplayed()))
