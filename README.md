@@ -27,6 +27,8 @@ an app to show top headlines for a specific source (BBC News)
 - Testing
   - [Unit Tests](https://en.wikipedia.org/wiki/Unit_testing)
   - [Mockito](https://site.mockito.org/) - mocking framework
+  - [UI Tests](https://en.wikipedia.org/wiki/Graphical_user_interface_testing) ([Espresso](https://developer.android.com/training/testing/espresso))
+
 - Architecture
   - MVVM Architecture (View - DataBinding - ViewModel - Model)
   - Repository pattern
