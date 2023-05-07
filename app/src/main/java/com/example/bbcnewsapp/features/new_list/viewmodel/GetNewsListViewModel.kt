@@ -24,7 +24,6 @@ class GetNewsListViewModel @Inject constructor(
 
 
     init {
-
         viewModelScope.launch {
             useCase.invoke()
                 .collect { response ->

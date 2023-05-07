@@ -10,7 +10,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
-import timber.log.Timber
 import javax.inject.Inject
 
 class NewsRepositoryImpl @Inject constructor(private val apiService: ApiService) :
@@ -29,13 +28,9 @@ class NewsRepositoryImpl @Inject constructor(private val apiService: ApiService)
 
             when (response) {
                 is ResultWrapper.Success -> {
-                    val articles = response.value.articles
                     val sortedList = response.value.articles.sortedBy {article->
                         article.publishedAt
                     }
-                    Timber.e("Not Sorted ::: $articles")
-                    Timber.e("Sorted ::: $sortedList")
-
                     emit(Resource.success(sortedList))
                 }
                 is ResultWrapper.Error -> {
