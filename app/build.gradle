@@ -42,6 +42,7 @@ android {
     productFlavors {
         bbc {
             dimension "news"
+            buildConfigField "String", "sources", "\"bbc-news\""
             manifestPlaceholders variant: 'BBC'
             applicationIdSuffix ".bbc"
             versionNameSuffix ".bbc"
@@ -49,9 +50,17 @@ android {
         }
         espn {
             dimension "news"
+            buildConfigField "String", "sources", "\"espn\""
             manifestPlaceholders variant: 'ESPN'
             applicationIdSuffix ".espn"
             versionNameSuffix ".espn"
+        }
+        bbcSport {
+            dimension "news"
+            buildConfigField "String", "sources", "\"bbc-sport\""
+            manifestPlaceholders variant: 'BBC Sport'
+            applicationIdSuffix ".bbcsport"
+            versionNameSuffix ".bbcsport"
         }
     }
 
